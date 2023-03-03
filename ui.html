@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>Список ссылок на страницы</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+<link href="/assets/css/main.min.css?v=615486064a0bb10ec674" rel="stylesheet"></head>
+<body>
+			
+
+<header class="mb-33">
+        <div class="container header">           
+            <button class="header-icon e--mob">
+                <img src="/assets/img/mob-menu.svg" alt="Mobile menu" width="24" height="12">
+            </button>           
+            <img class="header-logo" src="/assets/img/logo.svg" alt="Logo" width="101" height="36">
+            <div class="d-flex">
+                <button class="header-icon e--dsk">
+                    <img src="/assets/img/search.svg" alt="Search" width="17" height="17">
+                </button>
+                <nav>
+                    <a href="#" class="header-link active">Home</a>
+                    <a href="#" class="header-link">Spaces</a>
+                    <a href="#" class="header-link">Products & Services</a>
+                    <a href="#" class="header-link">Showrooms</a>
+                    <a href="#" class="header-link">Showrooms</a>
+                    <a href="#" class="header-link">Company</a>
+                    <a href="#" class="header-link">Media</a>
+                    <a href="#" class="header-link">CONTACT</a>
+                </nav>               
+                <div class="header-right-nav">
+                    <button class="header-icon">
+                        <img src="/assets/img/cart.svg" alt="Cart" width="21" height="20">
+                    </button>
+                    <button class="header-icon e--dsk">
+                        <img src="/assets/img/heart.svg" alt="Search" width="20" height="18">
+                    </button>
+                    <button class="header-icon e--dsk">
+                        <img src="/assets/img/user.svg" alt="Search" width="15" height="18">
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>	
+		<div class="container mb-5">
+		<div class="row">
+			<div class="col-12">
+				<div class="h4 my-4" style="opacity: .5;">Всего страниц: 8</div>
+			</div>
+			<div class="col-12">
+				<div class="list-group">
+									<a class="list-group-item list-group-item-action d-lg-flex justify-content-between align-items-center js-link-group" href="404.html" target="_blank"><div>404 - страница не найдена</div><code class="d-inline-block badge text-danger bg-light">404.html</code></a>
+									<a class="list-group-item list-group-item-action d-lg-flex justify-content-between align-items-center js-link-group" href="index.html" target="_blank"><div>PEPELAC</div><code class="d-inline-block badge text-danger bg-light">index.html</code></a>
+									<a class="list-group-item list-group-item-action d-lg-flex justify-content-between align-items-center js-link-group" href="kit.html" target="_blank"><div>Типографика</div><code class="d-inline-block badge text-danger bg-light">kit.html</code></a>
+									<a class="list-group-item list-group-item-action d-lg-flex justify-content-between align-items-center js-link-group" href="page1.html" target="_blank"><div>page1</div><code class="d-inline-block badge text-danger bg-light">page1.html</code></a>
+									<a class="list-group-item list-group-item-action d-lg-flex justify-content-between align-items-center js-link-group" href="page2.html" target="_blank"><div>page2</div><code class="d-inline-block badge text-danger bg-light">page2.html</code></a>
+									<a class="list-group-item list-group-item-action d-lg-flex justify-content-between align-items-center js-link-group" href="page3.html" target="_blank"><div>page1</div><code class="d-inline-block badge text-danger bg-light">page3.html</code></a>
+									<a class="list-group-item list-group-item-action d-lg-flex justify-content-between align-items-center js-link-group" href="page4.html" target="_blank"><div>page2</div><code class="d-inline-block badge text-danger bg-light">page4.html</code></a>
+									<a class="list-group-item list-group-item-action d-lg-flex justify-content-between align-items-center js-link-group" href="page5.html" target="_blank"><div>page2</div><code class="d-inline-block badge text-danger bg-light">page5.html</code></a>
+								</div>
+			</div>
+			<div class="col-12 mt-5">
+				<div><button id="download-list" class="btn btn-outline-success">Скачать список страниц</button></div>
+			</div>
+		</div>
+	</div>
+	
+	<script>
+		/** Скачивание файла */
+		function download(text, filename, type = "text/plain"){
+			const blob = new Blob([text], {type});
+			const url = window.URL.createObjectURL(blob);
+			const a = document.createElement("a");
+			a.href = url;
+			a.download = filename;
+			a.click();
+		}
+
+		const listHtml = [{"url":"404.html","title":"404 - страница не найдена"},{"url":"index.html","title":"PEPELAC"},{"url":"kit.html","title":"Типографика"},{"url":"page1.html","title":"page1"},{"url":"page2.html","title":"page2"},{"url":"page3.html","title":"page1"},{"url":"page4.html","title":"page2"},{"url":"page5.html","title":"page2"}];
+		const contentLinks = listHtml.map(i => `${i.title} - ${i.url}`).join('\n');
+
+
+		/** Пометка ссылок на которые был переход */
+		document.querySelectorAll('.js-link-group').forEach(link => link.addEventListener('click', function() { this.classList.add('active') }))
+
+		/** Событие скачивание списка страниц */
+		document.getElementById('download-list').addEventListener('click', function() {
+			download(contentLinks, 'Список страниц сайта.txt')
+		})
+	</script>
+
+			<footer>
+<div class="foot-bg-black">
+    <div class="foot-logo container">
+        <img src="/assets/img/logo (2).png" alt="logo">
+    </div>
+</div>
+            <div class="bg-black-wrapper">
+                <div class="bg-black">
+                <div class="logo-wrapper">
+                            <div class="logo">
+                                <img src="/assets/img/logo (2).png" alt="logo">
+                            </div>
+                </div>
+                    <div class="bg-black-left">
+                      
+                        <div class="col-1">
+                            <ul>
+                                <li class="title-first">Products</li>
+                                <li class="title-second">Sand Stone</li>
+                                <li class="title-second">Stone</li>
+                                <li class="title-second">Cement</li>
+                                <li class="title-second">Soft Stone</li>
+                            </ul>
+                        </div>
+                        <div class="col-2">
+                            <ul>
+                                <li class="title-first">Services</li>
+                                <li class="title-second">Measurement Service</li>
+                                <li class="title-second">Product Advice</li>
+                                <li class="title-second">Interior Design</li>
+                            </ul>
+                        </div>
+                        <div class="col-3">
+                            <ul>
+                                <li class="title-first">Contact information</li>
+                                <li class="title-second w-331">3181 Al Imam Saud Ibn Abdul Aziz Branch Rd, An Nuzhah, Riyadh 12474, </li>
+                                <li class="title-second w-331">Saudi Arabia</li>
+                            </ul>
+                        </div>
+                    </div>
+                   
+                    <div class="bg-black-right">
+                        <img src="/assets/img/Vector 15.png" alt="icon">
+                        <img src="/assets/img/Vector 15.png" alt="icon">
+                        <img src="/assets/img/Vector 15.png" alt="icon">
+                    </div>
+                    
+                </div> 
+                <div class="footer-line"></div>
+                <div class="footer-social">
+                    <div class="footer-social-wr">
+                        <div class="social-mob">
+                            <img src="/assets/img/Group 402.png" alt="icon">
+                            <img src="/assets/img/Group 401.png" alt="icon">
+                            <img src="/assets/img/Group 400.png" alt="icon">
+                        </div>
+                        <div class="social">
+                            <img src="/assets/img/Vector (1).png" alt="icon">
+                            <img src="/assets/img/Vector (2).png" alt="icon">
+                            <img src="/assets/img/Vector (3).png" alt="icon">
+                        </div>
+                        <div class="footer-text">
+                            <p class="white d-center">Copyright © 2022 | All Rights Reserved</p>
+                            <p class="white d-center">Created with love by thecreation.design</p>
+                        </div>
+                    </div>
+                </div>
+            </div>         
+        </footer>	<script defer src="/assets/js/vendor.min.js?v=5d092a214abc978ebb19"></script><script defer src="/assets/js/main.min.js?v=615486064a0bb10ec674"></script></body>
+</html>

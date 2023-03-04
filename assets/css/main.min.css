@@ -13333,7 +13333,7 @@ body {
 }
 
 .bg-picture {
-  background-image: url(/assets/img/photo1.png);
+  background-image: url(assets/img/photo1.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: -185px 0px;
@@ -13341,7 +13341,7 @@ body {
 }
 @media screen and (min-width: 992px) {
   .bg-picture {
-    background-image: url(/assets/img/photo1.png);
+    background-image: url(assets/img/photo1.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 0 0;

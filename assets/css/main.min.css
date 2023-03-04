@@ -13333,7 +13333,7 @@ body {
 }
 
 .bg-picture {
-  background-image: url(assets/img/photo1.png);
+  background-image: url(/assets/img/photo1.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: -185px 0px;
@@ -13341,7 +13341,7 @@ body {
 }
 @media screen and (min-width: 992px) {
   .bg-picture {
-    background-image: url(assets/img/photo1.png);
+    background-image: url(/assets/img/photo1.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 0 0;
@@ -13481,7 +13481,7 @@ body {
 .swipe-bg {
   width: 100%;
   margin-top: 320px;
-  background-image: url(assets/img/bg-photo3.png);
+  background-image: url(/assets/img/bg-photo3.png);
 }
 @media screen and (min-width: 992px) {
   .swipe-bg {
@@ -13615,25 +13615,25 @@ body {
 }
 
 .pic-1 {
-  background-image: url(assets/img/swipe1.png);
+  background-image: url(/assets/img/swipe1.png);
   background-size: 388px 350px;
   background-repeat: no-repeat;
 }
 
 .pic-2 {
-  background-image: url(assets/img/swipe2.png);
+  background-image: url(/assets/img/swipe2.png);
   background-size: 388px 350px;
   background-repeat: no-repeat;
 }
 
 .pic-3 {
-  background-image: url(assets/img/swipe3.png);
+  background-image: url(/assets/img/swipe3.png);
   background-size: 388px 350px;
   background-repeat: no-repeat;
 }
 
 .pic-4 {
-  background-image: url(assets/img/swipe4.png);
+  background-image: url(/assets/img/swipe4.png);
   background-size: 388px 350px;
   background-repeat: no-repeat;
 }
@@ -13663,7 +13663,7 @@ body {
 
 @media screen and (min-width: 992px) {
   .picture-1 {
-    background-image: url(assets/img/swipe1.png);
+    background-image: url(/assets/img/swipe1.png);
     width: 575px;
     height: 618px;
     display: flex;
@@ -13673,7 +13673,7 @@ body {
 
 @media screen and (min-width: 992px) {
   .picture-2 {
-    background-image: url(assets/img/swipe2.png);
+    background-image: url(/assets/img/swipe2.png);
     width: 339px;
     height: 618px;
     display: flex;
@@ -13683,7 +13683,7 @@ body {
 
 @media screen and (min-width: 992px) {
   .picture-3 {
-    background-image: url(assets/img/swipe3.png);
+    background-image: url(/assets/img/swipe3.png);
     width: 454px;
     height: 274px;
     display: flex;
@@ -13693,7 +13693,7 @@ body {
 
 @media screen and (min-width: 992px) {
   .picture-4 {
-    background-image: url(assets/img/swipe4.png);
+    background-image: url(/assets/img/swipe4.png);
     width: 454px;
     height: 304px;
     display: flex;
@@ -13979,25 +13979,25 @@ body {
 }
 
 .slide-1 {
-  background-image: url(assets/img/room1.png);
+  background-image: url(/assets/img/room1.png);
   background-repeat: no-repeat;
   background-size: 388px 325px;
 }
 
 .slide-2 {
-  background-image: url(assets/img/room2.png);
+  background-image: url(/assets/img/room2.png);
   background-repeat: no-repeat;
   background-size: 388px 325px;
 }
 
 .slide-3 {
-  background-image: url(assets/img/room3.png);
+  background-image: url(/assets/img/room3.png);
   background-repeat: no-repeat;
   background-size: 388px 325px;
 }
 
 .slide-4 {
-  background-image: url(assets/img/room4.png);
+  background-image: url(/assets/img/room4.png);
   background-repeat: no-repeat;
   background-size: 388px 325px;
 }
@@ -14662,7 +14662,7 @@ body {
 }
 
 .first-pic {
-  background-image: url(assets/img/page2.svg);
+  background-image: url(/assets/img/page2.svg);
   height: 526px;
 }
 .first-pic .first-pic-title {
@@ -14727,7 +14727,7 @@ body {
   color: #BCBCBC;
 }
 .four-pictures .four-pictures-second {
-  background-image: url(assets/img/21.png);
+  background-image: url(/assets/img/21.png);
   padding-left: 26px;
 }
 .four-pictures .four-pictures-second h2, .four-pictures .four-pictures-second .h2 {
@@ -14752,7 +14752,7 @@ body {
   color: #BCBCBC;
 }
 .four-pictures .four-pictures-third {
-  background-image: url(assets/img/22.png);
+  background-image: url(/assets/img/22.png);
   padding-left: 26px;
 }
 .four-pictures .four-pictures-third h2, .four-pictures .four-pictures-third .h2 {
@@ -14777,7 +14777,7 @@ body {
   color: #BCBCBC;
 }
 .four-pictures .four-pictures-fourth {
-  background-image: url(assets/img/23.png);
+  background-image: url(/assets/img/23.png);
   padding-left: 26px;
 }
 .four-pictures .four-pictures-fourth h2, .four-pictures .four-pictures-fourth .h2 {
@@ -14837,7 +14837,7 @@ body {
 .block-cafe {
   border: white;
   margin-bottom: 10px;
-  background: url(assets/img/bg.png) left no-repeat, url(assets/img/gradient.png) right no-repeat;
+  background: url(/assets/img/bg.png) left no-repeat, url(/assets/img/gradient.png) right no-repeat;
   display: flex;
   justify-content: space-between;
 }
@@ -15381,7 +15381,7 @@ input {
 }
 
 .input-img {
-  background-image: url(assets/img/51.png);
+  background-image: url(/assets/img/51.png);
   background-repeat: no-repeat;
   background-position: 335px 17px;
 }

@@ -13481,7 +13481,7 @@ body {
 .swipe-bg {
   width: 100%;
   margin-top: 320px;
-  background-image: url(/assets/img/bg-photo3.png);
+  background-image: url(../img/bg-photo3.png);
 }
 @media screen and (min-width: 992px) {
   .swipe-bg {
@@ -13615,25 +13615,25 @@ body {
 }
 
 .pic-1 {
-  background-image: url(/assets/img/swipe1.png);
+  background-image: url(../img/swipe1.png);
   background-size: 388px 350px;
   background-repeat: no-repeat;
 }
 
 .pic-2 {
-  background-image: url(/assets/img/swipe2.png);
+  background-image: url(../img/swipe2.png);
   background-size: 388px 350px;
   background-repeat: no-repeat;
 }
 
 .pic-3 {
-  background-image: url(/assets/img/swipe3.png);
+  background-image: url(../img/swipe3.png);
   background-size: 388px 350px;
   background-repeat: no-repeat;
 }
 
 .pic-4 {
-  background-image: url(/assets/img/swipe4.png);
+  background-image: url(../img/swipe4.png);
   background-size: 388px 350px;
   background-repeat: no-repeat;
 }
@@ -13979,25 +13979,25 @@ body {
 }
 
 .slide-1 {
-  background-image: url(/assets/img/room1.png);
+  background-image: url(../img/room1.png);
   background-repeat: no-repeat;
   background-size: 388px 325px;
 }
 
 .slide-2 {
-  background-image: url(/assets/img/room2.png);
+  background-image: url(../img/room2.png);
   background-repeat: no-repeat;
   background-size: 388px 325px;
 }
 
 .slide-3 {
-  background-image: url(/assets/img/room3.png);
+  background-image: url(../img/room3.png);
   background-repeat: no-repeat;
   background-size: 388px 325px;
 }
 
 .slide-4 {
-  background-image: url(/assets/img/room4.png);
+  background-image: url(../img/room4.png);
   background-repeat: no-repeat;
   background-size: 388px 325px;
 }

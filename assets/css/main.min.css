@@ -1,76 +1,76 @@
 /*!*****************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./srcassets/scss/index.scss ***!
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./src/assets/scss/index.scss ***!
   \*****************************************************************************************************************************************************************************/
 @charset "UTF-8";
 @font-face {
   font-family: "Roboto";
-  src: local("Roboto Thin"), local("Roboto-Thin"), url(assets/fonts/roboto/Robotothin.woff2) format("woff2"), url(assets/fonts/roboto/Robotothin.woff) format("woff"), url(assets/fonts/roboto/Robotothin.ttf) format("truetype");
+  src: local("Roboto Thin"), local("Roboto-Thin"), url(/assets/fonts/roboto/Robotothin.woff2) format("woff2"), url(/assets/fonts/roboto/Robotothin.woff) format("woff"), url(/assets/fonts/roboto/Robotothin.ttf) format("truetype");
   font-weight: 100;
   font-style: normal;
 }
 @font-face {
   font-family: "Roboto";
-  src: local("Roboto Thin Italic"), local("Roboto-ThinItalic"), url(assets/fonts/roboto/Robotothinitalic.woff2) format("woff2"), url(assets/fonts/roboto/Robotothinitalic.woff) format("woff"), url(assets/fonts/roboto/Robotothinitalic.ttf) format("truetype");
+  src: local("Roboto Thin Italic"), local("Roboto-ThinItalic"), url(/assets/fonts/roboto/Robotothinitalic.woff2) format("woff2"), url(/assets/fonts/roboto/Robotothinitalic.woff) format("woff"), url(/assets/fonts/roboto/Robotothinitalic.ttf) format("truetype");
   font-weight: 100;
   font-style: italic;
 }
 @font-face {
   font-family: "Roboto";
-  src: local("Roboto Light"), local("Roboto-Light"), url(assets/fonts/roboto/Robotolight.woff2) format("woff2"), url(assets/fonts/roboto/Robotolight.woff) format("woff"), url(assets/fonts/roboto/Robotolight.ttf) format("truetype");
+  src: local("Roboto Light"), local("Roboto-Light"), url(/assets/fonts/roboto/Robotolight.woff2) format("woff2"), url(/assets/fonts/roboto/Robotolight.woff) format("woff"), url(/assets/fonts/roboto/Robotolight.ttf) format("truetype");
   font-weight: 300;
   font-style: normal;
 }
 @font-face {
   font-family: "Roboto";
-  src: local("Roboto Light Italic"), local("Roboto-LightItalic"), url(assets/fonts/roboto/Robotolightitalic.woff2) format("woff2"), url(assets/fonts/roboto/Robotolightitalic.woff) format("woff"), url(assets/fonts/roboto/Robotolightitalic.ttf) format("truetype");
+  src: local("Roboto Light Italic"), local("Roboto-LightItalic"), url(/assets/fonts/roboto/Robotolightitalic.woff2) format("woff2"), url(/assets/fonts/roboto/Robotolightitalic.woff) format("woff"), url(/assets/fonts/roboto/Robotolightitalic.ttf) format("truetype");
   font-weight: 300;
   font-style: italic;
 }
 @font-face {
   font-family: "Roboto";
-  src: local("Roboto"), local("Roboto-Regular"), url(assets/fonts/roboto/Roboto.woff2) format("woff2"), url(assets/fonts/roboto/Roboto.woff) format("woff"), url(assets/fonts/roboto/Roboto.ttf) format("truetype");
+  src: local("Roboto"), local("Roboto-Regular"), url(/assets/fonts/roboto/Roboto.woff2) format("woff2"), url(/assets/fonts/roboto/Roboto.woff) format("woff"), url(/assets/fonts/roboto/Roboto.ttf) format("truetype");
   font-weight: 400;
   font-style: normal;
 }
 @font-face {
   font-family: "Roboto";
-  src: local("Roboto Italic"), local("Roboto-Italic"), url(assets/fonts/roboto/Robotoitalic.woff2) format("woff2"), url(assets/fonts/roboto/Robotoitalic.woff) format("woff"), url(assets/fonts/roboto/Robotoitalic.ttf) format("truetype");
+  src: local("Roboto Italic"), local("Roboto-Italic"), url(/assets/fonts/roboto/Robotoitalic.woff2) format("woff2"), url(/assets/fonts/roboto/Robotoitalic.woff) format("woff"), url(/assets/fonts/roboto/Robotoitalic.ttf) format("truetype");
   font-weight: 400;
   font-style: italic;
 }
 @font-face {
   font-family: "Roboto";
-  src: local("Roboto Medium"), local("Roboto-Medium"), url(assets/fonts/roboto/Robotomedium.woff2) format("woff2"), url(assets/fonts/roboto/Robotomedium.woff) format("woff"), url(assets/fonts/roboto/Robotomedium.ttf) format("truetype");
+  src: local("Roboto Medium"), local("Roboto-Medium"), url(/assets/fonts/roboto/Robotomedium.woff2) format("woff2"), url(/assets/fonts/roboto/Robotomedium.woff) format("woff"), url(/assets/fonts/roboto/Robotomedium.ttf) format("truetype");
   font-weight: 500;
   font-style: normal;
 }
 @font-face {
   font-family: "Roboto";
-  src: local("Roboto Medium Italic"), local("Roboto-MediumItalic"), url(assets/fonts/roboto/Robotomediumitalic.woff2) format("woff2"), url(assets/fonts/roboto/Robotomediumitalic.woff) format("woff"), url(assets/fonts/roboto/Robotomediumitalic.ttf) format("truetype");
+  src: local("Roboto Medium Italic"), local("Roboto-MediumItalic"), url(/assets/fonts/roboto/Robotomediumitalic.woff2) format("woff2"), url(/assets/fonts/roboto/Robotomediumitalic.woff) format("woff"), url(/assets/fonts/roboto/Robotomediumitalic.ttf) format("truetype");
   font-weight: 500;
   font-style: italic;
 }
 @font-face {
   font-family: "Roboto";
-  src: local("Roboto Bold"), local("Roboto-Bold"), url(assets/fonts/roboto/Robotobold.woff2) format("woff2"), url(assets/fonts/roboto/Robotobold.woff) format("woff"), url(assets/fonts/roboto/Robotobold.ttf) format("truetype");
+  src: local("Roboto Bold"), local("Roboto-Bold"), url(/assets/fonts/roboto/Robotobold.woff2) format("woff2"), url(/assets/fonts/roboto/Robotobold.woff) format("woff"), url(/assets/fonts/roboto/Robotobold.ttf) format("truetype");
   font-weight: 700;
   font-style: normal;
 }
 @font-face {
   font-family: "Roboto";
-  src: local("Roboto Bold Italic"), local("Roboto-BoldItalic"), url(assets/fonts/roboto/Robotobolditalic.woff2) format("woff2"), url(assets/fonts/roboto/Robotobolditalic.woff) format("woff"), url(assets/fonts/roboto/Robotobolditalic.ttf) format("truetype");
+  src: local("Roboto Bold Italic"), local("Roboto-BoldItalic"), url(/assets/fonts/roboto/Robotobolditalic.woff2) format("woff2"), url(/assets/fonts/roboto/Robotobolditalic.woff) format("woff"), url(/assets/fonts/roboto/Robotobolditalic.ttf) format("truetype");
   font-weight: 700;
   font-style: italic;
 }
 @font-face {
   font-family: "Roboto";
-  src: local("Roboto Black"), local("Roboto-Black"), url(assets/fonts/roboto/Robotoblack.woff2) format("woff2"), url(assets/fonts/roboto/Robotoblack.woff) format("woff"), url(assets/fonts/roboto/Robotoblack.ttf) format("truetype");
+  src: local("Roboto Black"), local("Roboto-Black"), url(/assets/fonts/roboto/Robotoblack.woff2) format("woff2"), url(/assets/fonts/roboto/Robotoblack.woff) format("woff"), url(/assets/fonts/roboto/Robotoblack.ttf) format("truetype");
   font-weight: 900;
   font-style: normal;
 }
 @font-face {
   font-family: "Roboto";
-  src: local("Roboto Black Italic"), local("Roboto-BlackItalic"), url(assets/fonts/roboto/Robotoblackitalic.woff2) format("woff2"), url(assets/fonts/roboto/Robotoblackitalic.woff) format("woff"), url(assets/fonts/roboto/Robotoblackitalic.ttf) format("truetype");
+  src: local("Roboto Black Italic"), local("Roboto-BlackItalic"), url(/assets/fonts/roboto/Robotoblackitalic.woff2) format("woff2"), url(/assets/fonts/roboto/Robotoblackitalic.woff) format("woff"), url(/assets/fonts/roboto/Robotoblackitalic.ttf) format("truetype");
   font-weight: 900;
   font-style: italic;
 }
@@ -13111,8 +13111,8 @@ table {
 
 @font-face {
   font-family: "Proxima Nova";
-  src: url(assets/fonts/ProximaNova-Regular.eot);
-  src: url(assets/fonts/ProximaNova-Regular.eot?#iefix) format("embedded-opentype"), url(assets/fonts/ProximaNova-Regular.woff) format("woff"), url(assets/fonts/ProximaNova-Regular.ttf) format("truetype");
+  src: url(/assets/fonts/ProximaNova-Regular.eot);
+  src: url(/assets/fonts/ProximaNova-Regular.eot?#iefix) format("embedded-opentype"), url(/assets/fonts/ProximaNova-Regular.woff) format("woff"), url(/assets/fonts/ProximaNova-Regular.ttf) format("truetype");
   font-weight: normal;
   font-style: normal;
 }
@@ -13333,7 +13333,7 @@ body {
 }
 
 .bg-picture {
-  background-image: url(../img/photo1.png);
+  background-image: url(/assets/img/photo1.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: -185px 0px;
@@ -13341,7 +13341,7 @@ body {
 }
 @media screen and (min-width: 992px) {
   .bg-picture {
-    background-image: url(../img/photo1.png);
+    background-image: url(/assets/img/photo1.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 0 0;
@@ -13478,18 +13478,18 @@ body {
   }
 }
 
-.../img/swipe-bg {
+.swipe-bg {
   width: 100%;
   margin-top: 320px;
-  background-image: url(../img/bg-photo3.png);
+  background-image: url(/assets/img/bg-photo3.png);
 }
 @media screen and (min-width: 992px) {
-  .../img/swipe-bg {
+  .swipe-bg {
     width: 100%;
     margin-top: 0;
   }
 }
-.../img/swipe-bg .../img/swipe .../img/swipe-block-item {
+.swipe-bg .swipe .swipe-block-item {
   display: flex;
   flex-wrap: wrap;
   margin: 0 auto;
@@ -13498,40 +13498,40 @@ body {
   padding-bottom: 10px;
 }
 @media screen and (min-width: 992px) {
-  .../img/swipe-bg .../img/swipe .../img/swipe-block-item {
+  .swipe-bg .swipe .swipe-block-item {
     padding-top: 80px;
     max-width: 194px;
     height: 48px;
     margin: 0 auto;
   }
 }
-.../img/swipe-bg .../img/swipe .../img/swipe-block-item .../img/swipe-item {
+.swipe-bg .swipe .swipe-block-item .swipe-item {
   font-size: 30px;
   font-weight: 700;
   line-height: 48px;
   color: #111010;
 }
 @media screen and (min-width: 992px) {
-  .../img/swipe-bg .../img/swipe .../img/swipe-block-item .../img/swipe-item {
+  .swipe-bg .swipe .swipe-block-item .swipe-item {
     font-size: 48px;
     font-weight: 700;
     line-height: 48px;
   }
 }
-.../img/swipe-bg .../img/swipe .../img/swipe-line {
+.swipe-bg .swipe .swipe-line {
   width: 125px;
   height: 3px;
   background-color: #c4c4c4;
   margin: 50px auto 30px;
 }
 @media screen and (min-width: 992px) {
-  .../img/swipe-bg .../img/swipe .../img/swipe-line {
+  .swipe-bg .swipe .swipe-line {
     width: 150px;
     height: 5px;
     background-color: #c4c4c4;
   }
 }
-.../img/swipe-bg .../img/swipe .../img/swipe-block-text {
+.swipe-bg .swipe .swipe-block-text {
   display: flex;
   flex-wrap: wrap;
   margin: 0 auto;
@@ -13540,53 +13540,53 @@ body {
   margin-bottom: 40px;
 }
 @media screen and (min-width: 992px) {
-  .../img/swipe-bg .../img/swipe .../img/swipe-block-text {
+  .swipe-bg .swipe .swipe-block-text {
     max-width: 826px;
     height: 56px;
     margin: 0 auto 26px;
   }
 }
-.../img/swipe-bg .../img/swipe .../img/swipe-block-text .../img/swipe-text {
+.swipe-bg .swipe .swipe-block-text .swipe-text {
   font-size: 15px;
   font-weight: 400;
   line-height: 25px;
   text-align: center;
 }
 @media screen and (min-width: 992px) {
-  .../img/swipe-bg .../img/swipe .../img/swipe-block-text .../img/swipe-text {
+  .swipe-bg .swipe .swipe-block-text .swipe-text {
     font-size: 20px;
     font-weight: 400;
     line-height: 28px;
   }
 }
-.../img/swipe-bg .../img/swipe .../img/swipe-block-imgs {
+.swipe-bg .swipe .swipe-block-imgs {
   max-width: 991px;
   display: none;
 }
 @media screen and (min-width: 992px) {
-  .../img/swipe-bg .../img/swipe .../img/swipe-block-imgs {
+  .swipe-bg .swipe .swipe-block-imgs {
     max-width: 1420px;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
   }
 }
-.../img/swiper {
+.swiper {
   max-width: 388px;
   height: 405px;
 }
 @media screen and (min-width: 992px) {
-  .../img/swiper {
+  .swiper {
     display: none;
   }
 }
-.../img/swiper .../img/swiper-button-next {
+.swiper .swiper-button-next {
   color: black;
   width: 37px;
   height: 44px;
   background-color: white;
 }
-.../img/swiper .../img/swiper-button-prev {
+.swiper .swiper-button-prev {
   color: black;
   width: 37px;
   height: 44px;
@@ -13615,36 +13615,36 @@ body {
 }
 
 .pic-1 {
-  background-image: url(../img/swipe1.png);
+  background-image: url(/assets/img/swipe1.png);
   background-size: 388px 350px;
   background-repeat: no-repeat;
 }
 
 .pic-2 {
-  background-image: url(../img/swipe2.png);
+  background-image: url(/assets/img/swipe2.png);
   background-size: 388px 350px;
   background-repeat: no-repeat;
 }
 
 .pic-3 {
-  background-image: url(../img/swipe3.png);
+  background-image: url(/assets/img/swipe3.png);
   background-size: 388px 350px;
   background-repeat: no-repeat;
 }
 
 .pic-4 {
-  background-image: url(../img/swipe4.png);
+  background-image: url(/assets/img/swipe4.png);
   background-size: 388px 350px;
   background-repeat: no-repeat;
 }
 
-.../img/swiper-slide-content {
+.swiper-slide-content {
   width: 361px;
   height: 93px;
   background-color: #111010;
   margin: 312px auto 0;
 }
-.../img/swiper-slide-content h1, .../img/swiper-slide-content .h1 {
+.swiper-slide-content h1, .swiper-slide-content .h1 {
   font-size: 28px;
   font-weight: 600;
   line-height: 28px;
@@ -13652,7 +13652,7 @@ body {
   text-align: center;
   padding-top: 20px;
 }
-.../img/swiper-slide-content p {
+.swiper-slide-content p {
   font-size: 15px;
   font-weight: 400;
   line-height: 16px;
@@ -13663,7 +13663,7 @@ body {
 
 @media screen and (min-width: 992px) {
   .picture-1 {
-    background-image: url(../img/swipe1.png);
+    background-image: url(/assets/img/swipe1.png);
     width: 575px;
     height: 618px;
     display: flex;
@@ -13673,7 +13673,7 @@ body {
 
 @media screen and (min-width: 992px) {
   .picture-2 {
-    background-image: url(../img/swipe2.png);
+    background-image: url(/assets/img/swipe2.png);
     width: 339px;
     height: 618px;
     display: flex;
@@ -13683,7 +13683,7 @@ body {
 
 @media screen and (min-width: 992px) {
   .picture-3 {
-    background-image: url(../img/swipe3.png);
+    background-image: url(/assets/img/swipe3.png);
     width: 454px;
     height: 274px;
     display: flex;
@@ -13693,7 +13693,7 @@ body {
 
 @media screen and (min-width: 992px) {
   .picture-4 {
-    background-image: url(../img/swipe4.png);
+    background-image: url(/assets/img/swipe4.png);
     width: 454px;
     height: 304px;
     display: flex;
@@ -13979,25 +13979,25 @@ body {
 }
 
 .slide-1 {
-  background-image: url(../img/room1.png);
+  background-image: url(/assets/img/room1.png);
   background-repeat: no-repeat;
   background-size: 388px 325px;
 }
 
 .slide-2 {
-  background-image: url(../img/room2.png);
+  background-image: url(/assets/img/room2.png);
   background-repeat: no-repeat;
   background-size: 388px 325px;
 }
 
 .slide-3 {
-  background-image: url(../img/room3.png);
+  background-image: url(/assets/img/room3.png);
   background-repeat: no-repeat;
   background-size: 388px 325px;
 }
 
 .slide-4 {
-  background-image: url(../img/room4.png);
+  background-image: url(/assets/img/room4.png);
   background-repeat: no-repeat;
   background-size: 388px 325px;
 }
@@ -14662,7 +14662,7 @@ body {
 }
 
 .first-pic {
-  background-image: url(/page2.svg);
+  background-image: url(/assets/img/page2.svg);
   height: 526px;
 }
 .first-pic .first-pic-title {
@@ -14727,7 +14727,7 @@ body {
   color: #BCBCBC;
 }
 .four-pictures .four-pictures-second {
-  background-image: url(/21.png);
+  background-image: url(/assets/img/21.png);
   padding-left: 26px;
 }
 .four-pictures .four-pictures-second h2, .four-pictures .four-pictures-second .h2 {
@@ -14752,7 +14752,7 @@ body {
   color: #BCBCBC;
 }
 .four-pictures .four-pictures-third {
-  background-image: url(assets/img/22.png);
+  background-image: url(/assets/img/22.png);
   padding-left: 26px;
 }
 .four-pictures .four-pictures-third h2, .four-pictures .four-pictures-third .h2 {
@@ -14777,7 +14777,7 @@ body {
   color: #BCBCBC;
 }
 .four-pictures .four-pictures-fourth {
-  background-image: url(/23.png);
+  background-image: url(/assets/img/23.png);
   padding-left: 26px;
 }
 .four-pictures .four-pictures-fourth h2, .four-pictures .four-pictures-fourth .h2 {
@@ -14837,7 +14837,7 @@ body {
 .block-cafe {
   border: white;
   margin-bottom: 10px;
-  background: url(/bg.png) left no-repeat, url(/gradient.png) right no-repeat;
+  background: url(/assets/img/bg.png) left no-repeat, url(/assets/img/gradient.png) right no-repeat;
   display: flex;
   justify-content: space-between;
 }
@@ -15381,7 +15381,7 @@ input {
 }
 
 .input-img {
-  background-image: url(assets/img/51.png);
+  background-image: url(/assets/img/51.png);
   background-repeat: no-repeat;
   background-position: 335px 17px;
 }

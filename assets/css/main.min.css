@@ -13333,7 +13333,7 @@ body {
 }
 
 .bg-picture {
-  background-image: url(photo1.png);
+  background-image: url(../img/photo1.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: -185px 0px;
@@ -13341,7 +13341,7 @@ body {
 }
 @media screen and (min-width: 992px) {
   .bg-picture {
-    background-image: url(photo1.png);
+    background-image: url(../img/photo1.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 0 0;
@@ -13478,18 +13478,18 @@ body {
   }
 }
 
-.swipe-bg {
+.../img/swipe-bg {
   width: 100%;
   margin-top: 320px;
-  background-image: url(bg-photo3.png);
+  background-image: url(../img/bg-photo3.png);
 }
 @media screen and (min-width: 992px) {
-  .swipe-bg {
+  .../img/swipe-bg {
     width: 100%;
     margin-top: 0;
   }
 }
-.swipe-bg .swipe .swipe-block-item {
+.../img/swipe-bg .../img/swipe .../img/swipe-block-item {
   display: flex;
   flex-wrap: wrap;
   margin: 0 auto;
@@ -13498,40 +13498,40 @@ body {
   padding-bottom: 10px;
 }
 @media screen and (min-width: 992px) {
-  .swipe-bg .swipe .swipe-block-item {
+  .../img/swipe-bg .../img/swipe .../img/swipe-block-item {
     padding-top: 80px;
     max-width: 194px;
     height: 48px;
     margin: 0 auto;
   }
 }
-.swipe-bg .swipe .swipe-block-item .swipe-item {
+.../img/swipe-bg .../img/swipe .../img/swipe-block-item .../img/swipe-item {
   font-size: 30px;
   font-weight: 700;
   line-height: 48px;
   color: #111010;
 }
 @media screen and (min-width: 992px) {
-  .swipe-bg .swipe .swipe-block-item .swipe-item {
+  .../img/swipe-bg .../img/swipe .../img/swipe-block-item .../img/swipe-item {
     font-size: 48px;
     font-weight: 700;
     line-height: 48px;
   }
 }
-.swipe-bg .swipe .swipe-line {
+.../img/swipe-bg .../img/swipe .../img/swipe-line {
   width: 125px;
   height: 3px;
   background-color: #c4c4c4;
   margin: 50px auto 30px;
 }
 @media screen and (min-width: 992px) {
-  .swipe-bg .swipe .swipe-line {
+  .../img/swipe-bg .../img/swipe .../img/swipe-line {
     width: 150px;
     height: 5px;
     background-color: #c4c4c4;
   }
 }
-.swipe-bg .swipe .swipe-block-text {
+.../img/swipe-bg .../img/swipe .../img/swipe-block-text {
   display: flex;
   flex-wrap: wrap;
   margin: 0 auto;
@@ -13540,53 +13540,53 @@ body {
   margin-bottom: 40px;
 }
 @media screen and (min-width: 992px) {
-  .swipe-bg .swipe .swipe-block-text {
+  .../img/swipe-bg .../img/swipe .../img/swipe-block-text {
     max-width: 826px;
     height: 56px;
     margin: 0 auto 26px;
   }
 }
-.swipe-bg .swipe .swipe-block-text .swipe-text {
+.../img/swipe-bg .../img/swipe .../img/swipe-block-text .../img/swipe-text {
   font-size: 15px;
   font-weight: 400;
   line-height: 25px;
   text-align: center;
 }
 @media screen and (min-width: 992px) {
-  .swipe-bg .swipe .swipe-block-text .swipe-text {
+  .../img/swipe-bg .../img/swipe .../img/swipe-block-text .../img/swipe-text {
     font-size: 20px;
     font-weight: 400;
     line-height: 28px;
   }
 }
-.swipe-bg .swipe .swipe-block-imgs {
+.../img/swipe-bg .../img/swipe .../img/swipe-block-imgs {
   max-width: 991px;
   display: none;
 }
 @media screen and (min-width: 992px) {
-  .swipe-bg .swipe .swipe-block-imgs {
+  .../img/swipe-bg .../img/swipe .../img/swipe-block-imgs {
     max-width: 1420px;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
   }
 }
-.swiper {
+.../img/swiper {
   max-width: 388px;
   height: 405px;
 }
 @media screen and (min-width: 992px) {
-  .swiper {
+  .../img/swiper {
     display: none;
   }
 }
-.swiper .swiper-button-next {
+.../img/swiper .../img/swiper-button-next {
   color: black;
   width: 37px;
   height: 44px;
   background-color: white;
 }
-.swiper .swiper-button-prev {
+.../img/swiper .../img/swiper-button-prev {
   color: black;
   width: 37px;
   height: 44px;
@@ -13615,36 +13615,36 @@ body {
 }
 
 .pic-1 {
-  background-image: url(swipe1.png);
+  background-image: url(../img/swipe1.png);
   background-size: 388px 350px;
   background-repeat: no-repeat;
 }
 
 .pic-2 {
-  background-image: url(swipe2.png);
+  background-image: url(../img/swipe2.png);
   background-size: 388px 350px;
   background-repeat: no-repeat;
 }
 
 .pic-3 {
-  background-image: url(swipe3.png);
+  background-image: url(../img/swipe3.png);
   background-size: 388px 350px;
   background-repeat: no-repeat;
 }
 
 .pic-4 {
-  background-image: url(swipe4.png);
+  background-image: url(../img/swipe4.png);
   background-size: 388px 350px;
   background-repeat: no-repeat;
 }
 
-.swiper-slide-content {
+.../img/swiper-slide-content {
   width: 361px;
   height: 93px;
   background-color: #111010;
   margin: 312px auto 0;
 }
-.swiper-slide-content h1, .swiper-slide-content .h1 {
+.../img/swiper-slide-content h1, .../img/swiper-slide-content .h1 {
   font-size: 28px;
   font-weight: 600;
   line-height: 28px;
@@ -13652,7 +13652,7 @@ body {
   text-align: center;
   padding-top: 20px;
 }
-.swiper-slide-content p {
+.../img/swiper-slide-content p {
   font-size: 15px;
   font-weight: 400;
   line-height: 16px;
@@ -13663,7 +13663,7 @@ body {
 
 @media screen and (min-width: 992px) {
   .picture-1 {
-    background-image: url(swipe1.png);
+    background-image: url(../img/swipe1.png);
     width: 575px;
     height: 618px;
     display: flex;
@@ -13673,7 +13673,7 @@ body {
 
 @media screen and (min-width: 992px) {
   .picture-2 {
-    background-image: url(swipe2.png);
+    background-image: url(../img/swipe2.png);
     width: 339px;
     height: 618px;
     display: flex;
@@ -13683,7 +13683,7 @@ body {
 
 @media screen and (min-width: 992px) {
   .picture-3 {
-    background-image: url(swipe3.png);
+    background-image: url(../img/swipe3.png);
     width: 454px;
     height: 274px;
     display: flex;
@@ -13693,7 +13693,7 @@ body {
 
 @media screen and (min-width: 992px) {
   .picture-4 {
-    background-image: url(swipe4.png);
+    background-image: url(../img/swipe4.png);
     width: 454px;
     height: 304px;
     display: flex;
@@ -13979,25 +13979,25 @@ body {
 }
 
 .slide-1 {
-  background-image: url(room1.png);
+  background-image: url(../img/room1.png);
   background-repeat: no-repeat;
   background-size: 388px 325px;
 }
 
 .slide-2 {
-  background-image: url(room2.png);
+  background-image: url(../img/room2.png);
   background-repeat: no-repeat;
   background-size: 388px 325px;
 }
 
 .slide-3 {
-  background-image: url(room3.png);
+  background-image: url(../img/room3.png);
   background-repeat: no-repeat;
   background-size: 388px 325px;
 }
 
 .slide-4 {
-  background-image: url(room4.png);
+  background-image: url(../img/room4.png);
   background-repeat: no-repeat;
   background-size: 388px 325px;
 }

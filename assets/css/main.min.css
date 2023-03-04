@@ -14662,7 +14662,7 @@ body {
 }
 
 .first-pic {
-  background-image: url(/assets/img/page2.svg);
+  background-image: url(../img/page2.svg);
   height: 526px;
 }
 .first-pic .first-pic-title {
@@ -14727,7 +14727,7 @@ body {
   color: #BCBCBC;
 }
 .four-pictures .four-pictures-second {
-  background-image: url(/assets/img/21.png);
+  background-image: url(../img/21.png);
   padding-left: 26px;
 }
 .four-pictures .four-pictures-second h2, .four-pictures .four-pictures-second .h2 {
@@ -14752,7 +14752,7 @@ body {
   color: #BCBCBC;
 }
 .four-pictures .four-pictures-third {
-  background-image: url(/assets/img/22.png);
+  background-image: url(../img/22.png);
   padding-left: 26px;
 }
 .four-pictures .four-pictures-third h2, .four-pictures .four-pictures-third .h2 {
@@ -14777,7 +14777,7 @@ body {
   color: #BCBCBC;
 }
 .four-pictures .four-pictures-fourth {
-  background-image: url(/assets/img/23.png);
+  background-image: url(../img/23.png);
   padding-left: 26px;
 }
 .four-pictures .four-pictures-fourth h2, .four-pictures .four-pictures-fourth .h2 {
@@ -14837,7 +14837,7 @@ body {
 .block-cafe {
   border: white;
   margin-bottom: 10px;
-  background: url(/assets/img/bg.png) left no-repeat, url(/assets/img/gradient.png) right no-repeat;
+  background: url(../img/bg.png) left no-repeat, url(../img/gradient.png) right no-repeat;
   display: flex;
   justify-content: space-between;
 }

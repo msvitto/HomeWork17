@@ -14752,7 +14752,7 @@ body {
   color: #BCBCBC;
 }
 .four-pictures .four-pictures-third {
-  background-image: url(/22.png);
+  background-image: url(assets/img/22.png);
   padding-left: 26px;
 }
 .four-pictures .four-pictures-third h2, .four-pictures .four-pictures-third .h2 {
@@ -15381,7 +15381,7 @@ input {
 }
 
 .input-img {
-  background-image: url(/51.png);
+  background-image: url(assets/img/51.png);
   background-repeat: no-repeat;
   background-position: 335px 17px;
 }
